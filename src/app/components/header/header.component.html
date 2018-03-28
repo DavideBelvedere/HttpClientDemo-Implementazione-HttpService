@@ -1,0 +1,5 @@
+<div class="header">
+    <div *ngFor="let item of menuList">
+        <span routerLink="/{{item.route}}" routerLinkActive="selected">{{item.title}}</span>
+    </div>
+</div>

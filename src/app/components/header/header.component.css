@@ -1,0 +1,14 @@
+.header {
+    background: cyan;
+    text-align: right;
+}
+
+.header>div {
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.selected {
+    font-weight: bold;
+}

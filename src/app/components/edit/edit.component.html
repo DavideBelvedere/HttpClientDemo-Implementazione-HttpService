@@ -1,0 +1,4 @@
+<form (ngSubmit)="changeGame()" *ngIf="game">
+    <input type="text" [(ngModel)]="game.name" name="name">
+    <button type="submit">Modifica</button>
+</form>
